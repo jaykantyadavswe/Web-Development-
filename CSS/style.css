@@ -1,0 +1,185 @@
+
+
+/* Text Properties */
+
+
+/* Element Selector */
+
+/* Class Selector */
+
+/* Id Selector */
+
+/* Child Selector */
+
+/* Descendant Selector */
+
+/* Universal Selector */
+
+/* Pseudo Selector */
+a:visited {
+    color: yellow;
+}
+
+a:link{
+    color: green;
+}
+
+a:active{
+    background-color: red;
+}
+
+a:hover {
+    background: #000;
+}
+
+p:first-child{
+    color: yellow;
+}
+
+.logo {
+    font-family: League spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 1.5px;
+    text-decoration: teal underline;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+div {
+    height: 150px;
+    width: 500px;
+    background-color: #efeb05;
+    border: solid 2px red;
+    border-left-color: rgb(0, 85, 255);
+    border-left-width: 5px;
+    border-left-style: dotted;
+
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(47, 64, 255);
+    border-radius: 20px;
+    text-align: center;
+}
+
+button {
+    border: solid 2px red;
+    border-radius: 50px;
+    width: 50px;
+    background-color: #efeb05;
+}
+
+#outer {
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+
+.inner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#alpha{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s;
+}
+
+#alpha:hover{
+    margin-top: 500px;
+    background-color: #efeb05;
+}
+
+section {
+    margin-top: 100px;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+/* Transform */
+#one {
+    transform: rotate(-45deg);
+}
+
+#two {
+    transform: scale(0.5);
+}
+
+#three {
+    transform: translateX(100px);
+}
+
+#four {
+    transform: skew(-30deg);
+}
+
+#five {
+    transform: rotate(30deg) translateX(100px);
+}
+
+#box {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    margin-top: 100px;
+    box-shadow: 2px 2px 8px black;
+}
+
+#box2 {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    border: none;
+    margin-top: 100px;
+    box-shadow: 2px 2px 8px black;
+    background: url(screen.png);
+    background-size: cover;
+    color: yellow;
+    font-size: 50px;
+}

@@ -1,0 +1,49 @@
+h2 {
+    color: orange;
+}
+
+button {
+    background-color: #0000ff;
+    color: rgb(255, 255, 255);
+}
+
+.pr {
+    background-color: black;
+    color: white;
+}
+
+.fb {
+    font-family: 'Courier New', Courier, monospace;
+    color: #5a5ae1;
+}
+
+.loginfb, .regFb{
+    background-color: rgb(64, 233, 233);
+}
+
+.search {
+    background-color: black;
+}
+
+#container {
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div {
+    height: 30px;
+    width: 300px;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
